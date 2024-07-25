@@ -1,0 +1,146 @@
+.name1
+{
+    color: white;
+}
+.planetsname
+{
+    color: white;
+}
+.planets 
+{
+    width: 200px;
+}
+.head2
+{
+    color: white;
+    text-align: center;
+}
+.bghome
+{
+    background-image:url(../assets/destination/background-destination-desktop.jpg);
+}
+.logoimg
+{
+    height: 78%;
+    width: 78%;
+}
+.li1
+{
+    margin-left: 80px;
+
+}
+
+.ul1
+{
+    /* From https://css.glass */
+
+max-width: 660px;
+
+background: rgba(255, 255, 255, 0.14);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.6px);
+-webkit-backdrop-filter: blur(7.6px);
+border: 1px solid rgba(255, 255, 255, 0.02);
+margin-right: -63px;  ;
+padding-top: 8px;
+    padding-bottom: 11px;
+}
+
+/* hover start  */
+ul { 
+    
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    
+  }
+  .hv {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .hv:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .hv:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /* hover end  */
+.ul2
+{
+    font-size: 12px;
+    font-family: "Vazirmatn", sans-serif; 
+}
+.cl1
+{
+    color: rgba(199, 193, 193, 0.822);
+    font-family: "Poppins", sans-serif;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.head1
+{
+    font-size: 100px;
+    color: white;
+    margin-left: 13px;
+    font-family: "Yrsa", serif; 
+}
+.p1
+{
+    font-size: 15px;
+    margin-left: 120px;
+    text-align: justify;
+}
+.div2
+{
+    background-color: white;
+    height: 150px;
+    width: 153px;
+    border-radius: 93px;
+    align-content: center;
+    margin-top: 170px;
+}
+.cl2
+{
+    display: flex;
+    align-content: center !important;
+    justify-content: center;
+}
+.hr1{
+    height: -1px;
+    width: 456px;
+    z-index: 1;
+    border: 1px solid rgba(161, 153, 153, 0.925);
+    margin-left: 80px;
+    position: absolute;
+    
+}
+@media screen and (max-width: 432px)
+{
+    .hr1
+    {
+        display: none;
+    }
+    
+}
